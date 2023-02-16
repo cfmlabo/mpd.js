@@ -9,6 +9,7 @@ declare const mpd: typeof MPD.Client;
 export declare namespace MPD {
 
   export type Config = NetConnectOpts & {
+    connection_timeout?: number
     password?: string,
   }
 

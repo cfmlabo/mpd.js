@@ -1,17 +1,16 @@
 {
-  "name": "mpd2",
-  "version": "1.0.5",
+  "name": "@makoto-tsudo/mpd2",
+  "version": "1.0.6",
   "description": "Music Player Daemon client",
   "main": "./lib/index.js",
   "author": "Cotko <cotkocot@gmail.com>",
   "license": "UNLICENSED",
+  "publishConfig": {
+    "@makoto-tsudo:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "lint": "standard ./lib/**/*.js",
     "lintfix": "standard ./lib/**/*.js --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cotko/mpd.js"
   },
   "keywords": [
     "mpd",
