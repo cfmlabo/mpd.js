@@ -17,7 +17,7 @@ jobs:
           always-auth: true
           node-version: '18.x'
           registry-url: https://npm.pkg.github.com/
-          scope: '@makoto-tsudo'
+          scope: '@cfmlabo'
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

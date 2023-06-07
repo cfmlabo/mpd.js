@@ -1,12 +1,12 @@
 {
-  "name": "@makoto-tsudo/mpd2",
+  "name": "@cfmlabo/mpd2",
   "version": "1.0.6",
   "description": "Music Player Daemon client",
   "main": "./lib/index.js",
   "author": "Cotko <cotkocot@gmail.com>",
   "license": "UNLICENSED",
   "publishConfig": {
-    "@makoto-tsudo:registry": "https://npm.pkg.github.com"
+    "@cfmlabo:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "lint": "standard ./lib/**/*.js",
